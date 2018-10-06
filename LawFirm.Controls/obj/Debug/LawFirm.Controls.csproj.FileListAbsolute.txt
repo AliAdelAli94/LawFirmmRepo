@@ -1,0 +1,6 @@
+C:\Users\Ali Abo Saada\Favorites\Documents\Visual Studio 2013\Projects\LawFirm\LawFirm.Controls\bin\LawFirm.Controls.dll.config
+C:\Users\Ali Abo Saada\Favorites\Documents\Visual Studio 2013\Projects\LawFirm\LawFirm.Controls\bin\LawFirm.Controls.dll
+C:\Users\Ali Abo Saada\Favorites\Documents\Visual Studio 2013\Projects\LawFirm\LawFirm.Controls\bin\LawFirm.Controls.pdb
+C:\Users\Ali Abo Saada\Favorites\Documents\Visual Studio 2013\Projects\LawFirm\LawFirm.Controls\obj\Debug\LawFirm.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Ali Abo Saada\Favorites\Documents\Visual Studio 2013\Projects\LawFirm\LawFirm.Controls\obj\Debug\LawFirm.Controls.dll
+C:\Users\Ali Abo Saada\Favorites\Documents\Visual Studio 2013\Projects\LawFirm\LawFirm.Controls\obj\Debug\LawFirm.Controls.pdb
