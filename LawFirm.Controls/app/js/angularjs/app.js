@@ -24,16 +24,31 @@
         $locationProvider.html5Mode(true);
     });
 
-    app.controller("about-us",function($route){
+    app.controller("mainController", function () {
+
+    });
+
+    app.controller("about-us",function(){
 
         load_js();
     });
 
 
-    app.controller("home",function($route){
+    app.controller("home",function($scope){
 
         load_js();
+
+
+        $scope.ShowTab = function (tabName) {
+            angular.element(document.getElementsByClassName("card-collapse collapse")).attr('ng-hide',true).removeClass('show');
+
+            $scope.currentTabName = tabName;
+            angular.element(document.getElementById(tabName)).removeAttr("ng-hide").addClass('show');
+        };
+
+
     });
+
 
 }(angular));
 
