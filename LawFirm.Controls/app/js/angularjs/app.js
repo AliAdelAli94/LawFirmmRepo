@@ -42,6 +42,11 @@
         $scope.ShowTab = function (tabName) {
 
 
+            var cardBody = $("#" + tabName)
+            var cardHeadId = angular.element(cardBody).attr("aria-labelledby");
+            var cardHead = angular.element($('#' + cardHeadId)[0].firstElementChild.firstElementChild);
+            var val = cardHead.attr("aria-expanded");
+
             $(".card-collapse").each(function () {
                
                 $(this).collapse('hide');
@@ -56,12 +61,23 @@
 
             
 
-            var cardBody = $("#" + tabName)
             cardBody.collapse('show');
-            var cardHeadId = angular.element(cardBody).attr("aria-labelledby");
-            var cardHead = angular.element($('#' + cardHeadId)[0].firstElementChild.firstElementChild);
-            cardHead.removeClass('collapsed');
-            cardHead.attr("aria-expanded", true);
+
+            if (val == "true") {
+
+                cardHead.addClass('collapsed');
+                cardHead.attr("aria-expanded", false);
+
+            }
+
+            if (val == "false") {
+
+                cardHead.removeClass('collapsed');
+                cardHead.attr("aria-expanded", true);
+
+            }
+
+            
             
            
         };
