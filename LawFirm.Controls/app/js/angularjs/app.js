@@ -40,10 +40,30 @@
 
 
         $scope.ShowTab = function (tabName) {
-            angular.element(document.getElementsByClassName("card-collapse collapse")).attr('ng-hide',true).removeClass('show');
 
-            $scope.currentTabName = tabName;
-            angular.element(document.getElementById(tabName)).removeAttr("ng-hide").addClass('show');
+
+            $(".card-collapse").each(function () {
+               
+                $(this).collapse('hide');
+            });
+
+            $(".card-title").each(function () {
+                var temb = angular.element($(this.firstElementChild));
+                temb.addClass('collapsed');
+                temb.attr("aria-expanded", false);
+                
+            });
+
+            
+
+            var cardBody = $("#" + tabName)
+            cardBody.collapse('show');
+            var cardHeadId = angular.element(cardBody).attr("aria-labelledby");
+            var cardHead = angular.element($('#' + cardHeadId)[0].firstElementChild.firstElementChild);
+            cardHead.removeClass('collapsed');
+            cardHead.attr("aria-expanded", true);
+            
+           
         };
 
 
