@@ -73,13 +73,16 @@
             .when("/bankruptcy.html", {
                 templateUrl: "bankruptcy.html"
             })
-           
+            .otherwise({redirectTo: '/home.html'});
 
         $locationProvider.html5Mode(true);
+
+        
     });
 
-    app.controller("mainController", function () {
 
+    app.controller("mainController", function () {
+        
     });
     app.controller("laborLawController", function () {
 
