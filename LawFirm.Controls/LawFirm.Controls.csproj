@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\arbitration.html" />
+    <Content Include="app\bankruptcy.html" />
     <Content Include="app\bat\phpmailer\class.phpmailer.php" />
     <Content Include="app\bat\phpmailer\class.pop3.php" />
     <Content Include="app\bat\phpmailer\class.smtp.php" />
@@ -68,6 +70,11 @@
     <Content Include="app\bat\twitter_api\tweet.php" />
     <Content Include="app\bat\twitter_api\twitteroauth\OAuth.php" />
     <Content Include="app\bat\twitter_api\twitteroauth\twitteroauth.php" />
+    <Content Include="app\civil-law.html" />
+    <Content Include="app\contract-drafting.html" />
+    <Content Include="app\criminal-law.html" />
+    <Content Include="app\expert-opinion.html" />
+    <Content Include="app\family-law.html" />
     <Content Include="app\fonts\36-slim-icons.eot" />
     <Content Include="app\fonts\36-slim-icons.ttf" />
     <Content Include="app\fonts\36-slim-icons.woff" />
@@ -103,7 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\404-page.html" />
-    <Content Include="app\503-page.html" />
+    <Content Include="app\css\503-page.html" />
     <Content Include="app\about-us.html" />
     <Content Include="app\accordion.html" />
     <Content Include="app\appointment.html" />
@@ -139,6 +146,7 @@
     <Content Include="app\gallery-grid.html" />
     <Content Include="app\gallery-item.html" />
     <Content Include="app\gallery-masonry.html" />
+    <Content Include="app\government-regulations.html" />
     <Content Include="app\grid.html" />
     <Content Include="app\header.html" />
     <Content Include="app\home.html" />
@@ -298,6 +306,8 @@
     <Content Include="app\images\typography-3-570x386.jpg" />
     <Content Include="app\images\_blank.png" />
     <Content Include="app\index.html" />
+    <Content Include="app\insurance-law.html" />
+    <Content Include="app\intellectual-property-law.html" />
     <Content Include="app\js\angular-route.js" />
     <Content Include="app\js\angular.min.js" />
     <Content Include="app\js\angularjs\app.js" />
@@ -308,20 +318,29 @@
     <Content Include="app\js\chatscript.js" />
     <Content Include="app\js\pointer-events.min.js" />
     <Content Include="app\js\script.js" />
+    <Content Include="app\labor-law.html" />
     <Content Include="app\login.html" />
     <Content Include="app\maintenance.html" />
+    <Content Include="app\maritime-law.html" />
+    <Content Include="app\medical-malpractice.html" />
     <Content Include="app\our-team.html" />
+    <Content Include="app\practice-areas.html" />
     <Content Include="app\pricing.html" />
     <Content Include="app\privacy-policy.html" />
     <Content Include="app\progress-bars.html" />
     <Content Include="app\register.html" />
     <Content Include="app\search-results.html" />
     <Content Include="app\services.html" />
+    <Content Include="app\sharia-law.html" />
     <Content Include="app\table-styles.html" />
     <Content Include="app\tabs.html" />
     <Content Include="app\team-member-profile.html" />
     <Content Include="app\typography.html" />
+    <Content Include="app\commercial-corporate.html" />
+    <Content Include="app\wills-trust.html" />
     <Content Include="Global.asax" />
+    <Content Include="app\litigation.html" />
+    <Content Include="app\realestate-construction.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
