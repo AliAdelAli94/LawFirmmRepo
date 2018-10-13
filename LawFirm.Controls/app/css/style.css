@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*
 *
 * Trunk version 2.0.0
@@ -8729,7 +8729,7 @@ dt {
 }
 
 .list-marked li:not(:last-child):after {
-	content: ';';
+	content: '';
 }
 
 .list-marked li:last-child:after {

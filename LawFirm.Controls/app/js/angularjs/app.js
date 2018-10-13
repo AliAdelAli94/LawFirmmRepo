@@ -14,12 +14,66 @@
             .when("/about-us.html", {
                 templateUrl: "about-us.html"
             })
-            .when("/green", {
-                templateUrl: "green.htm"
+            .when("/litigation.html", {
+                templateUrl: "litigation.html"
             })
-            .when("/blue", {
-                templateUrl: "blue.htm"
-            });
+            .when("/arbitration.html", {
+                templateUrl: "arbitration.html"
+            })
+            .when("/civil-law.html", {
+                templateUrl: "civil-law.html"
+            })
+            .when("/commercial-corporate.html", {
+                templateUrl: "commercial-corporate.html"
+            })
+            .when("/intellectual-property-law.html", {
+                templateUrl: "intellectual-property-law.html"
+            })
+            .when("/realestate-construction.html", {
+                templateUrl: "realestate-construction.html"
+            })
+            .when("/family-law.html", {
+                templateUrl: "family-law.html"
+            })
+            .when("/criminal-law.html", {
+                templateUrl: "criminal-law.html"
+            })
+            .when("/labor-law.html", {
+                templateUrl: "labor-law.html"
+            })
+            .when("/practice-areas.html", {
+                templateUrl: "practice-areas.html"
+            })
+            .when("/wills-trust.html", {
+                templateUrl: "wills-trust.html"
+            })
+            .when("/maritime-law.html", {
+                templateUrl: "maritime-law.html"
+            })
+            .when("/sharia-law.html", {
+                templateUrl: "sharia-law.html"
+            })
+            .when("/medical-malpractice.html", {
+                templateUrl: "medical-malpractice.html"
+            })
+            .when("/insurance-law.html", {
+                templateUrl: "insurance-law.html"
+            })
+            .when("/government-regulations.html", {
+                templateUrl: "government-regulations.html"
+            })
+            .when("/expert-opinion.html", {
+                templateUrl: "expert-opinion.html"
+            })
+
+            .when("/contract-drafting.html", {
+                templateUrl: "contract-drafting.html"
+            })
+
+            .when("/bankruptcy.html", {
+                templateUrl: "bankruptcy.html"
+            })
+           
 
         $locationProvider.html5Mode(true);
     });
@@ -27,12 +81,121 @@
     app.controller("mainController", function () {
 
     });
+    app.controller("laborLawController", function () {
+
+        load_js();
+
+    });
+    app.controller("insuranceLawController", function () {
+
+        load_js();
+
+    });
+
+    app.controller("bankruptcyController", function () {
+
+        load_js();
+
+    });
+
+    
+
+    app.controller("insuranceLawController", function () {
+
+        load_js();
+
+    });
+
+    app.controller("governmentRegulationsController", function () {
+
+        load_js();
+
+    });
+    app.controller("contractDraftingController", function () {
+
+        load_js();
+
+    });
+    
+    
+    app.controller("maritimeLawController", function () {
+
+        load_js();
+
+    });
+    app.controller("medicalMalpracticeController", function () {
+
+        load_js();
+
+    });
+    app.controller("shariaLawController", function () {
+
+        load_js();
+
+    });
+
+    app.controller("expertOpinionController", function () {
+
+        load_js();
+
+    });
+    
+    
+    app.controller("civillawController", function () {
+
+        load_js();
+    });
+
+    app.controller("willTrustController", function () {
+
+        load_js();
+    });
+    
 
     app.controller("about-us",function(){
 
         load_js();
     });
+    
+    app.controller("IntellectualPropertyController", function () {
 
+        load_js();
+    });
+    app.controller("arbitrationController", function () {
+
+        load_js();
+    });
+    app.controller("practiseAreasController", function () {
+
+        load_js();
+    });
+
+    app.controller("litigationController", function () {
+
+        load_js();
+    });
+    app.controller("commercialCorporateController", function () {
+
+        load_js();
+    });
+
+    
+    app.controller("realEstateConstructionController", function () {
+
+        load_js();
+    });
+
+    app.controller("familyLawController", function () {
+
+        load_js();
+    });
+
+    app.controller("criminalLawController", function () {
+
+        load_js();
+    });
+    
+    
 
     app.controller("home",function($scope){
 
