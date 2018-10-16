@@ -4,3 +4,9 @@ C:\Users\Ali Abo Saada\Favorites\Documents\Visual Studio 2013\Projects\LawFirm\L
 C:\Users\Ali Abo Saada\Favorites\Documents\Visual Studio 2013\Projects\LawFirm\LawFirm.Controls\obj\Debug\LawFirm.Controls.csprojResolveAssemblyReference.cache
 C:\Users\Ali Abo Saada\Favorites\Documents\Visual Studio 2013\Projects\LawFirm\LawFirm.Controls\obj\Debug\LawFirm.Controls.dll
 C:\Users\Ali Abo Saada\Favorites\Documents\Visual Studio 2013\Projects\LawFirm\LawFirm.Controls\obj\Debug\LawFirm.Controls.pdb
+D:\MyWork Git\LawFirm\LawFirmmRepo\LawFirm.Controls\bin\LawFirm.Controls.dll.config
+D:\MyWork Git\LawFirm\LawFirmmRepo\LawFirm.Controls\bin\LawFirm.Controls.dll
+D:\MyWork Git\LawFirm\LawFirmmRepo\LawFirm.Controls\bin\LawFirm.Controls.pdb
+D:\MyWork Git\LawFirm\LawFirmmRepo\LawFirm.Controls\obj\Debug\LawFirm.Controls.csprojResolveAssemblyReference.cache
+D:\MyWork Git\LawFirm\LawFirmmRepo\LawFirm.Controls\obj\Debug\LawFirm.Controls.dll
+D:\MyWork Git\LawFirm\LawFirmmRepo\LawFirm.Controls\obj\Debug\LawFirm.Controls.pdb
